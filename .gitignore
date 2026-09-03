@@ -1,0 +1,27 @@
+#Python Cache Files 
+__pycache__/
+*.pyc
+
+#Environment files
+.env
+.env.local  
+venv/
+.venv/
+
+#OS files 
+.DS_Store
+
+#IDE configs
+.vscode/
+
+#Dependencies
+.mypy_cache/
+
+#Large datasets and ouputs
+*.csv
+outputs/
+*.loc
+*.tmp
+
+#Rich text documents
+*.rtf
