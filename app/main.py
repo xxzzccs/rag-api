@@ -5,7 +5,7 @@ from typing import Any
 
 from db_config import client, collection
 
-from build_knowledge_base import build_knowledge_base
+from app.build_knowledge_base import build_knowledge_base
 from document import Document
 
 import rag
