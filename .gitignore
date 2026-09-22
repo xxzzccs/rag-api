@@ -26,5 +26,5 @@ outputs/
 #Rich text documents
 *.rtf
 
-#chromaDB data
-/chroma_db
+#ChromaDB data
+chroma_db/
