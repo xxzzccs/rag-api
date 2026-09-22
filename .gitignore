@@ -23,8 +23,9 @@ outputs/
 *.loc
 *.tmp
 
-#Rich text documents
+#text documents
 *.rtf
+profile.txt
 
 #ChromaDB data
 chroma_db/
