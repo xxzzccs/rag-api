@@ -1,9 +1,0 @@
-I am Aniruddha Sharma. I am interested in a career in the AI industry. 
-\n\n
-My career goal is to become an AI architect. 
-\n\n
-I am particuraly interested in malicious AI and AI ethics. 
-\n\n
-I have experience with python, Docker, and Agentic Workflows. 
-\n\n
-My hobbies include learning chess and playing against bots, listening to hoodtrap, UK drill and ethnic fusions of the two , and working out.
