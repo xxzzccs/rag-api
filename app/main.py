@@ -3,12 +3,11 @@ from fastapi import FastAPI
 from typing import cast
 from typing import Any
 
-from db_config import client, collection
 
 from app.build_knowledge_base import build_knowledge_base
-from document import Document
+from app.document import Document
 
-import rag
+from app import rag
 
 
 app = FastAPI()
@@ -25,3 +24,7 @@ def create_profile(document:Document):
             "user": document.user_name,
             "chunks": chunk_length   
         }
+
+@app.get("/health")
+def get_health():
+    return {"status": "fastAPI is running!"}
