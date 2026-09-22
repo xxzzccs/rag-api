@@ -6,7 +6,7 @@ from typing import Any
 from chromadb.api.types import Embeddable, QueryResult
 # from chromadb.utils.embedding_functions import OllamaEmbeddingFunction
 
-from db_config import client, collection
+from app.db_config import client, collection
 
 def rag(query:str, user:str=None) -> dict[str, Any]:
    #ChromaDB converts query to vector embedding, and returns the top 3 results matching query (Retrieval)

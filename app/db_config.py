@@ -4,7 +4,7 @@ from chromadb.utils.embedding_functions import OllamaEmbeddingFunction
 from chromadb.api.types import Embeddable, EmbeddingFunction
 from typing import cast
 
-from os_config import ollama_url,db_path
+from app.os_config import ollama_url,db_path
 
 client = chromadb.PersistentClient(path=f"{db_path}")
 

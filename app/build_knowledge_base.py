@@ -4,8 +4,8 @@ from typing import cast
 from chromadb.api.types import Embeddable, EmbeddingFunction
 from chromadb.utils.embedding_functions.ollama_embedding_function import OllamaEmbeddingFunction
 
-from document import Document
-from db_config import client, collection, embedding_func
+from app.document import Document
+from app.db_config import client, collection, embedding_func
 
 
 # Read the file in context manager, split into chunks (split on new lines) 
